@@ -26,9 +26,9 @@ a:hover {
 	padding-right: 1em;
 	padding-bottom: 1em; 
 	padding-left: 1em;
-	margin-right: 7em;
+	margin-left: 70%;
 	margin-top: -25%;
-	position: relative;
+	position: fixed;
 	z-index: 1;
 }
 #trailer {
@@ -67,12 +67,12 @@ a:hover {
 }
 #verticalline3 {
 	width: 0px;
-	margin-top: -3.3em;
+	margin-top: 3.3em;
 	margin-right: 24em;
 	border: dashed black thin;
-	height: 9.5em;
+	height: 2%;
 	float: right;
-	margin-bottom: 0em;
+	margin-bottom: -5%;
 }
 #verticalline4 {
 	width: 0px;
@@ -127,6 +127,7 @@ a:hover {
 	padding-top: 0%;
 	float: right;
 	width: 100%;
+	z-index: -1;
 }
 #jobssubtitle {
 	padding: 5% 2% 2% 2%;
@@ -144,9 +145,11 @@ a:hover {
 #jobscontent {
 	float: right;
 	margin: 0em 0em 0em 0em;
-	width: 20em;
+	width: 45%;
 	border: thin dashed;
-	padding: 0% 15% 20% 10%;
+	padding: 1%;
+	z-index: 2;
+
 }
 #writingspage {
 	background-color: #FDFCFC;
@@ -195,9 +198,11 @@ h3 {
 
 #fiction_title {
 	margin-left: 1em;
+	margin-right: 1em;
 	color: #F76C6C;
 	font-family: Verdana, Geneva, sans-serif;
 	padding-left: 2%;
+	padding-right: 2%;
 	padding-bottom: 1%;
 	padding-top: 1%;
 	clear: none;
@@ -330,3 +335,6 @@ h3 {
 	color: black;
 }
 
+.book_title {
+	font-style: italic;
+}
